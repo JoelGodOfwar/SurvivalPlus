@@ -71,6 +71,7 @@ public class Config {
 	public boolean MECHANICS_ENERGY_ABSORPTION;
 	public boolean MECHANICS_ENERGY_HASTE;
 	public boolean MECHANICS_ENERGY_REFILL_ON_SLEEP;
+	public int  MECHANICS_ENERGY_DELAY;
 
 	public boolean MECHANICS_SLOW_ARMOR;
 	public boolean MECHANICS_REINFORCED_ARMOR;
@@ -338,7 +339,8 @@ public class Config {
 		this.MECHANICS_ENERGY_COFFEE_ENABLED = settings.getBoolean("Mechanics.Energy.coffee");
 		this.MECHANICS_ENERGY_ABSORPTION = settings.getBoolean("Mechanics.Energy.absorption");
 		this.MECHANICS_ENERGY_HASTE = settings.getBoolean("Mechanics.Energy.haste");
-		this.MECHANICS_ENERGY_REFILL_ON_SLEEP = settings.getBoolean("Mechanics.Energy.SleepResetEnergy");
+		this.MECHANICS_ENERGY_REFILL_ON_SLEEP = settings.getBoolean("Mechanics.Energy.SleepResetEnergy.");
+		this.MECHANICS_ENERGY_DELAY = settings.getBoolean("Mechanics.Energy.SleepResetEnergy");
 
 		this.MECHANICS_SLOW_ARMOR = settings.getBoolean("Mechanics.SlowArmor");
 		this.MECHANICS_REINFORCED_ARMOR = settings.getBoolean("Mechanics.ReinforcedLeatherArmor");
